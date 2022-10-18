@@ -12,8 +12,7 @@ html{
 /*BODY------------------------------*/
 body{
     font-family: 'Jost', sans-serif;
-    background-color: #FFFAEA;
-    
+    background-color: #FFFAEA; 
 }
 
 
@@ -88,7 +87,7 @@ nav ul li{
 }
 
 
-/*IMG------------------------------*/
+/*IMG-BILDE-AV-MEG------------------------------*/
 .bilde-av-meg{
     width: 30rem;
     border-radius: 3rem;
@@ -115,10 +114,6 @@ nav ul li{
     justify-content: space-between; /*Sjekk denne senere*/
     margin: 10rem 14rem;
     gap: 8rem;
-
-
-    /* margin: 10rem auto;
-    max-width: 900px; */
 }
 
 
@@ -134,7 +129,6 @@ nav ul li{
 
 
 /*FOOTER------------------------------*/
-
 footer h2{
     /* Overstyrer orginal h2 */
     color: #FFFAEA;
@@ -143,8 +137,6 @@ footer h2{
 footer{
     background-color: #0f0f0f;
 }
-
-/*FOOTER-LIST------------------------------*/
 
 footer ul{
     font-size: 2rem;
@@ -157,22 +149,18 @@ footer ul li a{
 }
 
 
-/*FLEX-CONTAINER-FOUR------------------------------*/
-
+/*FLEX-CONTAINER-FOUR------------------------------*/        /* Kan kanskje gjøre om til flex-container-three*/
 .flex-container-four{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 4rem 0rem;
-    margin-top: 20rem;     /* Sjekk denne senere */
-
 }
 
 
+
 /*---------- ---------- ---------- MEDIA SCREEN ---------- ---------- ----------*/
-
-
 
 
 
@@ -186,12 +174,8 @@ footer ul li a{
 
     .bilde-av-meg{
         margin: auto;
-        /* flex: 1; */
     }
-
 }
-
-
 
 
 
@@ -236,17 +220,6 @@ footer ul li a{
         padding: 5rem;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     .second-article{
         text-align: center;
         margin: 5rem 5rem;
@@ -258,12 +231,6 @@ footer ul li a{
         margin: 0rem;
     }
 
-
-
-
-
-
-
     .third-article{
         margin: 5rem 5rem;
         padding: 5rem;
@@ -272,5 +239,4 @@ footer ul li a{
     footer ul{
         font-size: 1.8rem;
     }
-
 }
