@@ -1,0 +1,23 @@
+Spør carlo om:
+
+- Hvilke rekkefølge skal Article og Section skal være? Spør om kodinga jeg har gjort ser riktig ut ift. til det.
+- Har jeg importert fonten på riktig måte?
+- I CSS - flex-container-two, flex-wrap: wrap;, hvorfor?
+- Hvor mange class/divs bør man ha?
+
+
+
+Koder:
+
+Html:
+<p lang="no">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, quibusdam facere.</p>
+
+Css:
+background-imgage: url ('computer.img');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+flex-direction: row;

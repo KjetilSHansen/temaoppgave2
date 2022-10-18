@@ -1,0 +1,276 @@
+
+/*FONT------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*HTML------------------------------*/
+html{
+    font-size: 10px;
+}
+
+
+/*BODY------------------------------*/
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: #FFFAEA;
+    
+}
+
+
+/*H1------------------------------*/
+h1{
+    font-size: 5rem;
+    padding: 1rem 1rem 1rem 2rem;
+    color: #FFFAEA;
+}
+
+
+/*H2------------------------------*/
+h2{
+    font-size: 3rem;
+    color: #452c1b;
+}
+
+
+/*P------------------------------*/
+p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #3d2318;
+}
+
+
+/*HEADER------------------------------*/
+header{
+    margin-bottom: 5rem;
+}
+
+
+/*NAVIGATIONBAR------------------------------*/
+nav{
+    font-size: 2rem;
+    word-spacing: 50px;
+    text-align: right;
+    color: #FFFAEA;
+}
+
+nav ul{
+    padding: 3rem;
+}
+
+nav ul li{
+    display: inline;
+}
+
+
+/*FLEX-CONATINER-ONE------------------------------*/
+.flex-container-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #272222;
+}
+
+
+/*FIRST-ARTICLE------------------------------*/
+.first-article{
+    text-align: center;
+    background-color: #e9e9e9;
+
+           /*t&b  l&r*/
+    margin: 10rem 14rem;
+    padding: 10rem;
+    border-radius: 3rem;
+
+               /*r   b   sh     c*/
+    box-shadow: 5px 5px 10px #c9c9c9;
+}
+
+
+/*IMG------------------------------*/
+.bilde-av-meg{
+    width: 30rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 10px #c9c9c9;
+}
+
+
+/*SECOND-ARTICLE------------------------------*/
+.second-article{
+    text-align: center;
+    background-color: #e9e9e9;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 10px #c9c9c9;
+    padding: 9rem 4rem;
+    flex: 1;
+}
+
+
+/*FLEX-CONTAINER-TWO------------------------------*/
+.flex-container-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   /*Sjekk denne senere*/
+    justify-content: space-between; /*Sjekk denne senere*/
+    margin: 10rem 14rem;
+    gap: 8rem;
+
+
+    /* margin: 10rem auto;
+    max-width: 900px; */
+}
+
+
+/*THIRD-ARTICLE------------------------------*/
+.third-article{
+    text-align: center;
+    background-color: #e9e9e9;
+    margin: 10rem 14rem;
+    padding: 8rem 8rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 10px #c9c9c9;
+}
+
+
+/*FOOTER------------------------------*/
+
+footer h2{
+    /* Overstyrer orginal h2 */
+    color: #FFFAEA;
+}
+
+footer{
+    background-color: #0f0f0f;
+}
+
+/*FOOTER-LIST------------------------------*/
+
+footer ul{
+    font-size: 2rem;
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li a{
+    color: #FFFAEA;
+}
+
+
+/*FLEX-CONTAINER-FOUR------------------------------*/
+
+.flex-container-four{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 0rem;
+    margin-top: 20rem;     /* Sjekk denne senere */
+
+}
+
+
+/*---------- ---------- ---------- MEDIA SCREEN ---------- ---------- ----------*/
+
+
+
+
+
+/*-----1270 PX SCREEN------------------------------*/
+
+@media screen and (max-width: 1270px){
+
+    .flex-container-two{
+        flex-direction: column;
+    }
+
+    .bilde-av-meg{
+        margin: auto;
+        /* flex: 1; */
+    }
+
+}
+
+
+
+
+
+/*-----746 PX SCREEN------------------------------*/
+
+@media screen and (max-width: 746px) {
+    
+
+    .flex-container-one{
+        flex-direction: column;
+        background-color: #530055;
+    }
+
+    h1{
+        font-size: 4rem;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+
+    }
+    
+    p{
+        font-size: 1.8rem;
+    }
+
+    nav{
+        word-spacing: 30px;
+        text-align: center;
+    }
+
+    nav ul{
+        padding: 2rem;
+    }
+
+
+    .first-article{
+        margin: 5rem 5rem;
+        padding: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .second-article{
+        text-align: center;
+        margin: 5rem 5rem;
+        padding: 5rem;
+        
+    }
+
+    .flex-container-two{
+        margin: 0rem;
+    }
+
+
+
+
+
+
+
+    .third-article{
+        margin: 5rem 5rem;
+        padding: 5rem;
+    }
+
+    footer ul{
+        font-size: 1.8rem;
+    }
+
+}
