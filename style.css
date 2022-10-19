@@ -181,7 +181,7 @@ footer ul li a{
 
     .flex-container-one{
         flex-direction: column;
-        background-color: #530055;
+        background-color: #530055;    /* Husk å fjerne */
     }
 
     h1{
@@ -193,7 +193,6 @@ footer ul li a{
     h2{
         font-size: 2.5rem;
         padding-bottom: 1rem;
-
     }
     
     p{
@@ -209,17 +208,24 @@ footer ul li a{
         padding: 2rem;
     }
 
-
     .first-article{
-        margin: 5rem 5rem;
+        margin: 5rem 5rem 2.5rem 5rem;
         padding: 5rem;
+    }
+
+    .flex-container-two{
+        gap: 0rem;
     }
 
     .second-article{
         text-align: center;
-        margin: 5rem 5rem;
+        margin: 2.5rem 5rem 2.5rem 5rem;
         padding: 5rem;
-        
+    }
+
+    .bilde-av-meg{
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .flex-container-two{
@@ -227,7 +233,7 @@ footer ul li a{
     }
 
     .third-article{
-        margin: 5rem 5rem;
+        margin: 2.5rem 5rem 5rem 5rem;
         padding: 5rem;
     }
 
