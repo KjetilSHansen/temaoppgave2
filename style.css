@@ -12,7 +12,7 @@ html{
 /*BODY------------------------------*/
 body{
     font-family: 'Jost', sans-serif;
-    background-color: #FFFAEA; 
+    background-color: #FFFAEA;
 }
 
 
@@ -27,7 +27,7 @@ h1{
 /*H2------------------------------*/
 h2{
     font-size: 3rem;
-    color: #452c1b;
+    color: #2a1f18;
 }
 
 
@@ -35,13 +35,7 @@ h2{
 p{
     font-size: 2rem;
     font-weight: 300;
-    color: #3d2318;
-}
-
-
-/*HEADER------------------------------*/
-header{
-    margin-bottom: 5rem;
+    color: #2a1f18;
 }
 
 
@@ -68,14 +62,14 @@ nav ul li{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #272222;
+    background-color: #120F0E;
 }
 
 
 /*FIRST-ARTICLE------------------------------*/
 .first-article{
     text-align: center;
-    background-color: #e9e9e9;
+    background-color: #FCFFF5;
 
            /*t&b  l&r*/
     margin: 10rem 14rem;
@@ -98,7 +92,7 @@ nav ul li{
 /*SECOND-ARTICLE------------------------------*/
 .second-article{
     text-align: center;
-    background-color: #e9e9e9;
+    background-color: #FCFFF5;
     border-radius: 3rem;
     box-shadow: 5px 5px 10px #c9c9c9;
     padding: 9rem 4rem;
@@ -120,7 +114,7 @@ nav ul li{
 /*THIRD-ARTICLE------------------------------*/
 .third-article{
     text-align: center;
-    background-color: #e9e9e9;
+    background-color: #FCFFF5;
     margin: 10rem 14rem;
     padding: 8rem 8rem;
     border-radius: 3rem;
@@ -135,7 +129,8 @@ footer h2{
 }
 
 footer{
-    background-color: #0f0f0f;
+    background-color: #120F0E;
+
 }
 
 footer ul{
