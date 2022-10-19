@@ -82,7 +82,7 @@ nav ul li{
 
 
 /*IMG-BILDE-AV-MEG------------------------------*/
-.bilde-av-meg{
+.bilde-av-meg-1{
     width: 30rem;
     border-radius: 3rem;
     box-shadow: 5px 5px 10px #c9c9c9;
@@ -167,7 +167,7 @@ footer ul li a{
         flex-direction: column;
     }
 
-    .bilde-av-meg{
+    .bilde-av-meg-1{
         margin: auto;
     }
 }
@@ -208,12 +208,12 @@ footer ul li a{
     }
 
     .first-article{
-        margin: 5rem 5rem 2.5rem 5rem;
+        margin: 5rem 5rem 5rem 5rem;
         padding: 5rem;
     }
 
     .flex-container-two{
-        gap: 0rem;
+        gap: 2.5rem;
     }
 
     .second-article{
