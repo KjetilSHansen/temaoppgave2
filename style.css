@@ -71,13 +71,9 @@ nav ul li{
 .first-article{
     text-align: center;
     background-color: #FCFFF5;
-
-           /*t&b  l&r*/
     margin: 10rem 14rem;
     padding: 10rem;
     border-radius: 3rem;
-
-               /*r   b   sh     c*/
     box-shadow: 5px 5px 10px #c9c9c9;
 }
 
@@ -105,8 +101,8 @@ nav ul li{
 .flex-container-two{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;   /*Sjekk denne senere*/
-    justify-content: space-between; /*Sjekk denne senere*/
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10rem 14rem;
     gap: 8rem;
 }
@@ -125,13 +121,11 @@ nav ul li{
 
 /*FOOTER------------------------------*/
 footer h2{
-    /* Overstyrer orginal h2 */
     color: #FFFAEA;
 }
 
 footer{
     background-color: #120F0E;
-
 }
 
 footer ul{
@@ -145,7 +139,7 @@ footer ul li a{
 }
 
 
-/*FLEX-CONTAINER-FOUR------------------------------*/        /* Kan kanskje gjøre om til flex-container-three*/
+/*FLEX-CONTAINER-FOUR------------------------------*/
 .flex-container-four{
     display: flex;
     flex-direction: row;
@@ -174,8 +168,7 @@ footer ul li a{
 }
 
 
-
-/*-----746 PX SCREEN------------------------------*/
+/*-----751 PX SCREEN------------------------------*/
 
 @media screen and (max-width: 751px) {
     
@@ -216,6 +209,7 @@ footer ul li a{
 
     .flex-container-two{
         gap: 2.5rem;
+        margin: 0rem;
     }
 
     .second-article{
@@ -227,10 +221,6 @@ footer ul li a{
     .bilde-av-meg{
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
-    }
-
-    .flex-container-two{
-        margin: 0rem;
     }
 
     .third-article{
